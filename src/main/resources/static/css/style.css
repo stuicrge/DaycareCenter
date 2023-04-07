@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+}
+
+.navbar-nav li a {
+    color: #333; /* 링크 색상 */
+    font-size: 18px; /* 폰트 크기 */
+    font-weight: bold; /* 폰트 굵기 */
+    text-transform: uppercase; /* 대문자로 변환 */
+    margin-right: 20px; /* 오른쪽 마진 */
+    transition: all 0.3s ease; /* 전환 효과 */
+}
+
+.navbar-nav li a:hover {
+    color: #f00; /* 호버 시 링크 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    transform: scale(1.1); /* 확대 효과 */
+}
