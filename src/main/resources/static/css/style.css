@@ -4,15 +4,18 @@
     font-weight: bolder;
 }
 
-.navbar-nav .nav-link{
+.navbar-nav  .over{
+    color: white;
+}
+
+.navbar-nav .under{
     color: black;
 }
 
 
-
-.carousel-image {
-    width: 50%; /* Change this value to adjust the width of the image */
-    margin: 0 auto;
+.text-center .main-image {
+    width: 500px;
+    height: auto;
 }
 
 
